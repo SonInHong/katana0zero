@@ -1,0 +1,51 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(500,5): warning MSB8004: Output 디렉터리가 슬래시로 끝나지 않습니다. Output 디렉터리의 적절한 평가를 허용하는 데 필요하므로 이 빌드 인스턴스에서 슬래시를 추가합니다.
+  CAnimation.cpp
+C:\Users\family\source\repos\KatanaZero\KatanaZero\CAnimation.cpp(80,186): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\family\source\repos\KatanaZero\KatanaZero\CAnimation.cpp(80,170): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\family\source\repos\KatanaZero\KatanaZero\CAnimation.cpp(80,154): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\family\source\repos\KatanaZero\KatanaZero\CAnimation.cpp(80,114): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\family\source\repos\KatanaZero\KatanaZero\CAnimation.cpp(80,78): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\family\source\repos\KatanaZero\KatanaZero\CAnimation.cpp(80,69): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\family\source\repos\KatanaZero\KatanaZero\CAnimation.cpp(80,49): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\family\source\repos\KatanaZero\KatanaZero\CAnimation.cpp(80,28): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CAnimator.cpp
+  CCameraMgr.cpp
+  CCollider.cpp
+C:\Users\family\source\repos\KatanaZero\KatanaZero\CCollider.cpp(55,15): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\family\source\repos\KatanaZero\KatanaZero\CCollider.cpp(54,15): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\family\source\repos\KatanaZero\KatanaZero\CCollider.cpp(53,15): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\family\source\repos\KatanaZero\KatanaZero\CCollider.cpp(52,29): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CColliderMgr.cpp
+  CComponent.cpp
+  CCore.cpp
+  CEventMgr.cpp
+  CMap.cpp
+  CMissile.cpp
+C:\Users\family\source\repos\KatanaZero\KatanaZero\CMissile.cpp(46,114): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\family\source\repos\KatanaZero\KatanaZero\CMissile.cpp(46,99): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\family\source\repos\KatanaZero\KatanaZero\CMissile.cpp(46,67): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\family\source\repos\KatanaZero\KatanaZero\CMissile.cpp(46,34): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CMonster.cpp
+C:\Users\family\source\repos\KatanaZero\KatanaZero\CMonster.cpp(38,114): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\family\source\repos\KatanaZero\KatanaZero\CMonster.cpp(38,99): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\family\source\repos\KatanaZero\KatanaZero\CMonster.cpp(38,67): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\family\source\repos\KatanaZero\KatanaZero\CMonster.cpp(38,34): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  CObject.cpp
+  CPlayer.cpp
+  CResource.cpp
+  CResourceMgr.cpp
+  CScene.cpp
+  CSceneMgr.cpp
+  CScene_Start.cpp
+  CTexture.cpp
+  KatanaZero.cpp
+  컴파일하고 있습니다...
+  KeyMgr.cpp
+  PathMgr.cpp
+  pch.cpp
+  TimeMgr.cpp
+  코드를 생성하고 있습니다.
+  Previous IPDB not found, fall back to full compilation.
+  All 763 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  코드를 생성했습니다.
+  KatanaZero.vcxproj -> C:\Users\family\source\repos\KatanaZero\Output\bin\KatanaZero.exe

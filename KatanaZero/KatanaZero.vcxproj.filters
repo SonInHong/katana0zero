@@ -1,0 +1,454 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일\Default">
+      <UniqueIdentifier>{011eabee-8de1-4f41-874d-c0d3eda96c01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{90f30433-7e88-47d9-8904-bb2bf98687b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\CCore">
+      <UniqueIdentifier>{c986ceda-4b3c-444a-a9d9-46f8cb17b7e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\CObject">
+      <UniqueIdentifier>{cd5e78bd-2ea4-4499-8d78-8c4e40d9f263}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Managers">
+      <UniqueIdentifier>{0d8b0656-4113-4d86-adbe-0f8a777d876c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Managers\TimeMgr">
+      <UniqueIdentifier>{f18e5477-1b02-4c12-bae7-784ec7c00834}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Managers\KeyMgr">
+      <UniqueIdentifier>{8b2646de-58b3-41bd-a920-b69ff76d17e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Managers\PathMgr">
+      <UniqueIdentifier>{424adc07-8fa7-4dcd-971a-6ab05e1a2672}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\CComponent">
+      <UniqueIdentifier>{d08982e7-5145-4786-acc9-0d8bf71d27a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\CComponent\CCollider">
+      <UniqueIdentifier>{fbd481d7-7ea9-4535-abed-f1016ede801d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Managers\CCameraMgr">
+      <UniqueIdentifier>{88563d03-4d6b-41d7-b492-9005ce1426f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Managers\CColliderMgr">
+      <UniqueIdentifier>{f41077f9-2a15-4364-bbca-82d167fedf3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Managers\CEventMgr">
+      <UniqueIdentifier>{f1fb4031-5ed7-4bc2-afc4-12c30544fc8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Managers\CResourceMgr">
+      <UniqueIdentifier>{d0dbdc32-46f5-4139-b991-f3ffdcffce8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Managers\CSceneMgr">
+      <UniqueIdentifier>{59bd7237-2d66-46f0-9186-b7d53738f417}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\CResource">
+      <UniqueIdentifier>{2774afbc-1c4a-40c5-889d-1dd4e4878666}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\CResource\Texture">
+      <UniqueIdentifier>{64b8c147-d65d-4320-b34a-366b45524e4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\CResource\Sound">
+      <UniqueIdentifier>{6152d665-b944-42c2-9d3b-e88ac8521b79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\CComponent\CAnimator">
+      <UniqueIdentifier>{fa35f620-133e-4aee-b96a-c66527dd71a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\CComponent\CAnimator\CAnimation">
+      <UniqueIdentifier>{96965307-564a-47b6-8245-87202d8a617d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\CScene">
+      <UniqueIdentifier>{3efa9071-00ea-4775-8572-15448eaf82c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\CScene\CScene_Start">
+      <UniqueIdentifier>{7c54ec23-724d-46b2-a267-b991688b337b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\CObject\CPlayer">
+      <UniqueIdentifier>{2a41a6bf-f4c4-4c85-a4c7-a5361eb18bdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\CObject\CMonster">
+      <UniqueIdentifier>{7794b50e-3f20-4216-a265-078ff9eb3382}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\CObject\CMap">
+      <UniqueIdentifier>{bf209c12-9edb-42dd-9454-80f86db3fc5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\CObject\CUI">
+      <UniqueIdentifier>{2f758211-f44b-4f2e-9b05-00cf552b934e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\CObject\CUI\CPanelUI">
+      <UniqueIdentifier>{947a5d62-283c-4926-8fd8-20b3abe23ce6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\CObject\CUI\CButtonUI">
+      <UniqueIdentifier>{6de0fe21-ba8a-4692-b545-931b5963fd9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Managers\CUIMgr">
+      <UniqueIdentifier>{132ddbaf-4a7e-4bdc-9603-0d1df856ff9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\CMap">
+      <UniqueIdentifier>{950f1b95-f8e6-4eac-811b-765f60241880}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\CObject\CTile">
+      <UniqueIdentifier>{55e70a2d-e0b0-45a2-820d-a3e9f038bc52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\CScene\CScene_Tool">
+      <UniqueIdentifier>{f1aad46c-c9e2-460f-b67f-67a1850c0180}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\CObject\CUI\CPanelUI\CTileUI">
+      <UniqueIdentifier>{d1f6aa4e-6804-40ef-b47a-812f2b766898}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Managers\PenMgr">
+      <UniqueIdentifier>{d08823ca-506a-4301-aad8-84c3e79ee804}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\CComponent\CRigidBody">
+      <UniqueIdentifier>{6e9e34b1-9653-49ee-8c4d-7e17c827ded5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\CComponent\CCollider\LineCollider">
+      <UniqueIdentifier>{2d27070b-09d8-4b3b-9c1b-713e9c59af5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\CObject\Architecture">
+      <UniqueIdentifier>{719cd07d-d981-4343-b700-0350e16d5b41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\CObject\Architecture\CFloor">
+      <UniqueIdentifier>{dfbb5920-57d0-4440-b089-4394ac2edc8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\CObject\Architecture\CFloor\CStair">
+      <UniqueIdentifier>{0cb7d02b-3cc7-4f57-857f-0234386be48c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\CObject\Architecture\CWall">
+      <UniqueIdentifier>{6389bf5a-3239-4855-9104-1b5d53f0f0d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\CObject\Architecture\CFloor\CTopFloor">
+      <UniqueIdentifier>{85cf1013-9055-4bbb-b932-a01aac5d6bcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\CObject\Architecture\CFloor\CCeiling">
+      <UniqueIdentifier>{f171fc79-5679-4b57-90f9-7efab7e0a0df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\CObject\CPlayer\CSword">
+      <UniqueIdentifier>{4154fb31-8a36-4a38-99c5-88b8700eb8a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\CObject\CPlayer\CGroundBreaker">
+      <UniqueIdentifier>{3d29b59a-8c6b-4dc6-a9e5-b4d07a6253d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\CObject\CCursor">
+      <UniqueIdentifier>{81bb4796-7d92-4fdf-a1fc-1dd0e5b1f4b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Managers\CNodeMgr">
+      <UniqueIdentifier>{320f6077-93e3-4c11-a4ba-20a4c7b80332}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Managers\CNodeMgr\Node">
+      <UniqueIdentifier>{eb8359e4-83c2-40a9-a46f-593ab02441b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\CObject\CMonster\CGrunt">
+      <UniqueIdentifier>{1844fd26-663d-4f93-bdc3-51fbc707262b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일\Default</Filter>
+    </ClInclude>
+    <ClInclude Include="KatanaZero.h">
+      <Filter>헤더 파일\Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일\Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일\Default</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CCore.h">
+      <Filter>Engine\CCore</Filter>
+    </ClInclude>
+    <ClInclude Include="CObject.h">
+      <Filter>Engine\CObject</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeMgr.h">
+      <Filter>Engine\Managers\TimeMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyMgr.h">
+      <Filter>Engine\Managers\KeyMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="PathMgr.h">
+      <Filter>Engine\Managers\PathMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CComponent.h">
+      <Filter>Engine\CComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="CCollider.h">
+      <Filter>Engine\CComponent\CCollider</Filter>
+    </ClInclude>
+    <ClInclude Include="CCameraMgr.h">
+      <Filter>Engine\Managers\CCameraMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CColliderMgr.h">
+      <Filter>Engine\Managers\CColliderMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CEventMgr.h">
+      <Filter>Engine\Managers\CEventMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CResourceMgr.h">
+      <Filter>Engine\Managers\CResourceMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneMgr.h">
+      <Filter>Engine\Managers\CSceneMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CResource.h">
+      <Filter>Engine\CResource</Filter>
+    </ClInclude>
+    <ClInclude Include="CTexture.h">
+      <Filter>Engine\CResource\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimator.h">
+      <Filter>Engine\CComponent\CAnimator</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimation.h">
+      <Filter>Engine\CComponent\CAnimator\CAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene.h">
+      <Filter>Engine\CScene</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene_Start.h">
+      <Filter>Engine\CScene\CScene_Start</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayer.h">
+      <Filter>Engine\CObject\CPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonster.h">
+      <Filter>Engine\CObject\CMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="CMap.h">
+      <Filter>Engine\CObject\CMap</Filter>
+    </ClInclude>
+    <ClInclude Include="CSword.h">
+      <Filter>Engine\CObject\CPlayer\CSword</Filter>
+    </ClInclude>
+    <ClInclude Include="CUI.h">
+      <Filter>Engine\CObject\CUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CPanelUI.h">
+      <Filter>Engine\CObject\CUI\CPanelUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CButtonUI.h">
+      <Filter>Engine\CObject\CUI\CButtonUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CUIMgr.h">
+      <Filter>Engine\Managers\CUIMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CTile.h">
+      <Filter>Engine\CObject\CTile</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene_Tool.h">
+      <Filter>Engine\CScene\CScene_Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="CTileUI.h">
+      <Filter>Engine\CObject\CUI\CPanelUI\CTileUI</Filter>
+    </ClInclude>
+    <ClInclude Include="PenMgr.h">
+      <Filter>Engine\Managers\PenMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CRigidBody.h">
+      <Filter>Engine\CComponent\CRigidBody</Filter>
+    </ClInclude>
+    <ClInclude Include="CFloor.h">
+      <Filter>Engine\CObject\Architecture\CFloor</Filter>
+    </ClInclude>
+    <ClInclude Include="CLineCollider.h">
+      <Filter>Engine\CComponent\CCollider\LineCollider</Filter>
+    </ClInclude>
+    <ClInclude Include="CStair.h">
+      <Filter>Engine\CObject\Architecture\CFloor\CStair</Filter>
+    </ClInclude>
+    <ClInclude Include="CWall.h">
+      <Filter>Engine\CObject\Architecture\CWall</Filter>
+    </ClInclude>
+    <ClInclude Include="CTopFloor.h">
+      <Filter>Engine\CObject\Architecture\CFloor\CTopFloor</Filter>
+    </ClInclude>
+    <ClInclude Include="CFloorCeiling.h">
+      <Filter>Engine\CObject\Architecture\CFloor\CCeiling</Filter>
+    </ClInclude>
+    <ClInclude Include="CGroundBreaker.h">
+      <Filter>Engine\CObject\CPlayer\CGroundBreaker</Filter>
+    </ClInclude>
+    <ClInclude Include="CCursor.h">
+      <Filter>Engine\CObject\CCursor</Filter>
+    </ClInclude>
+    <ClInclude Include="CNode.h">
+      <Filter>Engine\Managers\CNodeMgr\Node</Filter>
+    </ClInclude>
+    <ClInclude Include="CNodeMgr.h">
+      <Filter>Engine\Managers\CNodeMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CGrunt.h">
+      <Filter>Engine\CObject\CMonster\CGrunt</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="KatanaZero.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>헤더 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CCore.cpp">
+      <Filter>Engine\CCore</Filter>
+    </ClCompile>
+    <ClCompile Include="CObject.cpp">
+      <Filter>Engine\CObject</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeMgr.cpp">
+      <Filter>Engine\Managers\TimeMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyMgr.cpp">
+      <Filter>Engine\Managers\KeyMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="PathMgr.cpp">
+      <Filter>Engine\Managers\PathMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CComponent.cpp">
+      <Filter>Engine\CComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="CCollider.cpp">
+      <Filter>Engine\CComponent\CCollider</Filter>
+    </ClCompile>
+    <ClCompile Include="CCameraMgr.cpp">
+      <Filter>Engine\Managers\CCameraMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CColliderMgr.cpp">
+      <Filter>Engine\Managers\CColliderMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CEventMgr.cpp">
+      <Filter>Engine\Managers\CEventMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CResourceMgr.cpp">
+      <Filter>Engine\Managers\CResourceMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneMgr.cpp">
+      <Filter>Engine\Managers\CSceneMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CResource.cpp">
+      <Filter>Engine\CResource</Filter>
+    </ClCompile>
+    <ClCompile Include="CTexture.cpp">
+      <Filter>Engine\CResource\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimator.cpp">
+      <Filter>Engine\CComponent\CAnimator</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimation.cpp">
+      <Filter>Engine\CComponent\CAnimator\CAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene.cpp">
+      <Filter>Engine\CScene</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene_Start.cpp">
+      <Filter>Engine\CScene\CScene_Start</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayer.cpp">
+      <Filter>Engine\CObject\CPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonster.cpp">
+      <Filter>Engine\CObject\CMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="CMap.cpp">
+      <Filter>Engine\CObject\CMap</Filter>
+    </ClCompile>
+    <ClCompile Include="CSword.cpp">
+      <Filter>Engine\CObject\CPlayer\CSword</Filter>
+    </ClCompile>
+    <ClCompile Include="CUI.cpp">
+      <Filter>Engine\CObject\CUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CPanelUI.cpp">
+      <Filter>Engine\CObject\CUI\CPanelUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CButtonUI.cpp">
+      <Filter>Engine\CObject\CUI\CButtonUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CUIMgr.cpp">
+      <Filter>Engine\Managers\CUIMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CTile.cpp">
+      <Filter>Engine\CObject\CTile</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene_Tool.cpp">
+      <Filter>Engine\CScene\CScene_Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="CTileUI.cpp">
+      <Filter>Engine\CObject\CUI\CPanelUI\CTileUI</Filter>
+    </ClCompile>
+    <ClCompile Include="PenMgr.cpp">
+      <Filter>Engine\Managers\PenMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CRigidBody.cpp">
+      <Filter>Engine\CComponent\CRigidBody</Filter>
+    </ClCompile>
+    <ClCompile Include="CFloor.cpp">
+      <Filter>Engine\CObject\Architecture\CFloor</Filter>
+    </ClCompile>
+    <ClCompile Include="CLineCollider.cpp">
+      <Filter>Engine\CComponent\CCollider\LineCollider</Filter>
+    </ClCompile>
+    <ClCompile Include="CStair.cpp">
+      <Filter>Engine\CObject\Architecture\CFloor\CStair</Filter>
+    </ClCompile>
+    <ClCompile Include="CWall.cpp">
+      <Filter>Engine\CObject\Architecture\CWall</Filter>
+    </ClCompile>
+    <ClCompile Include="CTopFloor.cpp">
+      <Filter>Engine\CObject\Architecture\CFloor\CTopFloor</Filter>
+    </ClCompile>
+    <ClCompile Include="CFloorCeiling.cpp">
+      <Filter>Engine\CObject\Architecture\CFloor\CCeiling</Filter>
+    </ClCompile>
+    <ClCompile Include="CGroundBreaker.cpp">
+      <Filter>Engine\CObject\CPlayer\CGroundBreaker</Filter>
+    </ClCompile>
+    <ClCompile Include="CCursor.cpp">
+      <Filter>Engine\CObject\CCursor</Filter>
+    </ClCompile>
+    <ClCompile Include="CNode.cpp">
+      <Filter>Engine\Managers\CNodeMgr\Node</Filter>
+    </ClCompile>
+    <ClCompile Include="CNodeMgr.cpp">
+      <Filter>Engine\Managers\CNodeMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CGrunt.cpp">
+      <Filter>Engine\CObject\CMonster\CGrunt</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="KatanaZero.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="KatanaZero.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
